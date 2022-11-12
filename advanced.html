@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang = "en" dir = "ltr">
+    <head >
+        <title> Search </title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="nav">
+            <a href="index.html"> Google Search </a>
+        </div>
+        <div class="nav_ad">
+            <h2> Advanced Search </h2>
+        </div>
+
+        <div>
+            <p> Find pages with...</p>
+            <form action = "https://www.google.com/search">
+                <div class="grid-container"> 
+                    <div>
+                        <p> all these words:</p> 
+                    </div>                    
+                    <div>
+                        <input type = "text" name ="as_q">
+                    </div>
+                     
+                </div> 
+
+                <div class="grid-container">
+                    <div>
+                        <p> this exact word or phrase: </p>
+                    </div>
+                    <div >
+                        <p> <input type = "text" name ="as_epq"> </p>
+                    </div> 
+                </div>
+
+                <div class="grid-container">
+                    <div>
+                        <p> any of these words: </p>
+                    </div>
+                    <div>
+                        <p> <input type = "text" name ="as_oq"> </p>
+                    </div>
+                </div>
+                   
+                <div class="grid-container">
+                    <div>
+                        <p> none of these words: </p>
+                    </div>
+                    <div>
+                        <p> <input type = "text" name ="as_eq"> </p>
+                    </div>
+                </div>
+                <div class="adv_search">
+                    <input type = "submit" name ="submit" value = "Advanced Search">
+                </div>
+            </form>
+        </div>
+        
+    </body>
+
+</html>
